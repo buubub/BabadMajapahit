@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="FireTrapToken" size="8.000000 9.995771" />
+    <ImageTarget name="PushTrapToken" size="8.000000 9.995771" />
+    <ImageTarget name="MajapahitToken" size="8.000000 9.995771" />
+    <ImageTarget name="Gaoxing" size="8.000000 9.995771" />
+    <ImageTarget name="IkeMese" size="8.000000 9.995771" />
+    <ImageTarget name="AryaWiraraja" size="8.000000 9.995771" />
+    <ImageTarget name="IntelPlus3" size="8.000000 9.995771" />
+    <ImageTarget name="IntelPlus2" size="8.000000 9.995771" />
+    <ImageTarget name="IntelPlus1" size="8.000000 9.995771" />
+    <ImageTarget name="IntelMinus2" size="8.000000 9.995771" />
+    <ImageTarget name="IntelMinus1" size="8.000000 9.995771" />
+    <ImageTarget name="Rally" size="8.000000 9.995771" />
+    <ImageTarget name="PushTrap" size="8.000000 9.995771" />
+    <ImageTarget name="FireTrap" size="8.000000 9.995771" />
+    <ImageTarget name="Tactic" size="8.000000 9.995771" />
+    <ImageTarget name="Steal" size="8.000000 9.995771" />
+    <ImageTarget name="WeaponPlus3" size="8.000000 9.995771" />
+    <ImageTarget name="WeaponPlus2" size="8.000000 9.995771" />
+    <ImageTarget name="WeaponPlus1" size="8.000000 9.995771" />
+    <ImageTarget name="WeaponMinus2" size="8.000000 9.995771" />
+    <ImageTarget name="WeaponMinus1" size="8.000000 9.995771" />
+    <ImageTarget name="FoodPlus3" size="8.000000 9.995771" />
+    <ImageTarget name="FoodPlus2" size="8.000000 9.995771" />
+    <ImageTarget name="FoodPlus1" size="8.000000 9.995771" />
+    <ImageTarget name="FoodMinus2" size="8.000000 9.995771" />
+    <ImageTarget name="FoodMinus1" size="8.000000 9.995771" />
+    <ImageTarget name="RadenWijaya" size="8.000000 9.995771" />
+    <ImageTarget name="Jayakatwang" size="8.000000 9.995771" />
+    <ImageTarget name="Ardharaja" size="8.000000 9.995771" />
+  </Tracking>
+</QCARConfig>

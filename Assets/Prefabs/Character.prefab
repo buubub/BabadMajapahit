@@ -1,0 +1,354 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &996274324324920773
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7503144779650575567}
+  - component: {fileID: 3742058420250642462}
+  m_Layer: 0
+  m_Name: Raden Wijaya
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7503144779650575567
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996274324324920773}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1303626055590565130}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3742058420250642462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996274324324920773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0b276894494f8a408a0e794d261ac52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charaName: Raden Wijaya
+  charaDescription: Seorang pemimpin yang memiliki ambisi yang kuat dengan watak yang
+    licik
+  faction: {fileID: 0}
+  charaImage: {fileID: 2800000, guid: b9dba1048053ccc4ca847325ed22c070, type: 3}
+  charaIcon: {fileID: 2800000, guid: 65b5c6c5455796d469964d02bd835c23, type: 3}
+  startingResource:
+    food: 2
+    intel: 4
+    weapon: 1
+--- !u!1 &2652454214357468685
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4851593900773074286}
+  - component: {fileID: 7085001567652458093}
+  m_Layer: 0
+  m_Name: Ardharaja
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4851593900773074286
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2652454214357468685}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1303626055590565130}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7085001567652458093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2652454214357468685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0b276894494f8a408a0e794d261ac52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charaName: Ardharaja
+  charaDescription: Putra dari Jayakatwang yang menjadi sering berpartisipasi saat
+    perang
+  faction: {fileID: 0}
+  charaImage: {fileID: 2800000, guid: 979aa6674ddb3ab4390e07f6c4309f4c, type: 3}
+  charaIcon: {fileID: 2800000, guid: 01d786e574df5174788be37a3039a153, type: 3}
+  startingResource:
+    food: 3
+    intel: 2
+    weapon: 3
+--- !u!1 &3055491464694316590
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1303626055590565130}
+  m_Layer: 0
+  m_Name: Character
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1303626055590565130
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3055491464694316590}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 7503144779650575567}
+  - {fileID: 1566146745742078560}
+  - {fileID: 5377204865275120365}
+  - {fileID: 4851593900773074286}
+  - {fileID: 424490035617849082}
+  - {fileID: 5492743380647341154}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3550698071807408788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5492743380647341154}
+  - component: {fileID: 8711633774303305600}
+  m_Layer: 0
+  m_Name: Gaoxing
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5492743380647341154
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3550698071807408788}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1303626055590565130}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8711633774303305600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3550698071807408788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0b276894494f8a408a0e794d261ac52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charaName: Gaoxing
+  charaDescription: Seorang panglima China yang mendampingi Ike Mese dalam invasi
+    pulau Jawa
+  faction: {fileID: 0}
+  charaImage: {fileID: 2800000, guid: 1aa93c1af5c785348a2f44ee69d1ca58, type: 3}
+  charaIcon: {fileID: 2800000, guid: 618dd5f1f8da2f0419acc19519f51739, type: 3}
+  startingResource:
+    food: 1
+    intel: 5
+    weapon: 2
+--- !u!1 &6342863803037832694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5377204865275120365}
+  - component: {fileID: 7361931108058343505}
+  m_Layer: 0
+  m_Name: Jayakatwang
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5377204865275120365
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6342863803037832694}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1303626055590565130}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7361931108058343505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6342863803037832694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0b276894494f8a408a0e794d261ac52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charaName: Prabu Jayakatwang
+  charaDescription: Raja terkahir dari Kediri yang bijaksana dalam memimpin rakyatnya
+  faction: {fileID: 0}
+  charaImage: {fileID: 2800000, guid: 5544ffa00f7f6844ba7c0bebb764dae5, type: 3}
+  charaIcon: {fileID: 2800000, guid: 66e325c7c9eda2347b7ff526518eaf8f, type: 3}
+  startingResource:
+    food: 3
+    intel: 3
+    weapon: 2
+--- !u!1 &6374766871905936283
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 424490035617849082}
+  - component: {fileID: 2588526111750960544}
+  m_Layer: 0
+  m_Name: Ike Mese
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &424490035617849082
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6374766871905936283}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1303626055590565130}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2588526111750960544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6374766871905936283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0b276894494f8a408a0e794d261ac52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charaName: Ike Mese
+  charaDescription: Panglima perang yang dikirim Kaisar Khubilai Khan untuk menginvasi
+    Jawa
+  faction: {fileID: 0}
+  charaImage: {fileID: 2800000, guid: e490db0655c171b49acb75a5c3263634, type: 3}
+  charaIcon: {fileID: 2800000, guid: fba6232e9cbb01149a1328a5fcb2825d, type: 3}
+  startingResource:
+    food: 2
+    intel: 1
+    weapon: 4
+--- !u!1 &7636851165775445998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1566146745742078560}
+  - component: {fileID: 3677179391827268612}
+  m_Layer: 0
+  m_Name: Arya Wiraraja
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1566146745742078560
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7636851165775445998}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1303626055590565130}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3677179391827268612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7636851165775445998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0b276894494f8a408a0e794d261ac52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charaName: Arya Wiraraja
+  charaDescription: Adipati dari Madura yang bekerja di bawah pemerintahan Jayakatwang
+  faction: {fileID: 0}
+  charaImage: {fileID: 2800000, guid: 260ce12423190464594c58c5710a9dca, type: 3}
+  charaIcon: {fileID: 2800000, guid: a34bb224bf3fbff46af8ab468806289b, type: 3}
+  startingResource:
+    food: 2
+    intel: 4
+    weapon: 2
